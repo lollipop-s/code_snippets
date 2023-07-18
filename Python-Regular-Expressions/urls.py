@@ -9,7 +9,7 @@ https://www.nasa.gov
 
 pattern = re.compile(r'https?://(www\.)?(\w+)(\.\w+)')
 
-subbed_urls = pattern.sub(r'\2\3', urls)
+subbed_urls = pattern.sub(r'\2\3', urls) # subtitute out matches with group 2 and 3 (back-refs)
 
 print(subbed_urls)
 
