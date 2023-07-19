@@ -1,3 +1,11 @@
+"""
+Example:
+Gives url, grab the domain name followed by the top level domain.
+
+-groups - grab informaiton from groups
+-groups - back-reference (used in sub method)
+
+"""
 import re
 
 urls = '''

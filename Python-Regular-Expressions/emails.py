@@ -1,3 +1,9 @@
+"""
+Example:
+Write a regular expression that will match different emails.
+-character sets and quantifiers
+-groups matching several different patterns
+"""
 import re
 
 emails = '''
